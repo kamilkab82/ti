@@ -1,0 +1,3 @@
+int main() {
+  printf(''witaj świecie\n")
+}
