@@ -254,3 +254,14 @@ kborkowska@p137-11:~/Pobrane/Sublime Text 2$ ^C
 kborkowska@p137-11:~/Pobrane/Sublime Text 2$ ./sublime_text 
 ```html
 zmina kolorów 
+
+```C
+/**
+ * The first commented line is your dabblet’s title
+ */
+
+color:red;
+background-color: #54f;
+font-size: 2em;
+ padding-: 0px
+
