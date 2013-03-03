@@ -252,3 +252,5 @@ kborkowska@p137-11:~/Pobrane/Sublime Text 2$ DGSGS
 DGSGS: command not found
 kborkowska@p137-11:~/Pobrane/Sublime Text 2$ ^C
 kborkowska@p137-11:~/Pobrane/Sublime Text 2$ ./sublime_text 
+```html
+zmina kolorów 
