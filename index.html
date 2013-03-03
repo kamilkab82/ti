@@ -1,87 +1,466 @@
 <!doctype html>
-<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
-<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Ti by kamilkab82</title>
 
-  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
-  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script type="text/javascript" src="javascripts/script.js"></script>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Ti</h1>
+        <p>notatki do przedmiotu technologie internetowe</p>
 
-  <title>Ti</title>
-  <meta name="description" content="notatki do przedmiotu technologie internetowe">
+        <p class="view"><a href="https://github.com/kamilkab82/ti">View the Project on GitHub <small>kamilkab82/ti</small></a></p>
 
-  <meta name="viewport" content="width=device-width,initial-scale=1">
 
-</head>
+        <ul>
+          <li><a href="https://github.com/kamilkab82/ti/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/kamilkab82/ti/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/kamilkab82/ti">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>Notatki do technologii internetowych</h1>
 
-<body>
+<p>Znaczniki:</p>
 
-  <div class="wrapper">
-    <header>
-      <h1 class="title">Ti</h1>
-    </header>
-    <div id="container">
-      <p class="tagline">notatki do przedmiotu technologie internetowe</p>
-      <div id="main" role="main">
-        <div class="download-bar">
-        <div class="inner">
-          <a href="https://github.com/kamilkab82/ti/tarball/master" class="download-button tar"><span>Download</span></a>
-          <a href="https://github.com/kamilkab82/ti/zipball/master" class="download-button zip"><span>Download</span></a>
-          <a href="https://github.com/kamilkab82/ti" class="code">View Ti on GitHub</a>
-        </div>
-        <span class="blc"></span><span class="trc"></span>
-        </div>
-        <article class="markdown-body">
-          <h3>Welcome to GitHub Pages.</h3>
+<ul>
+<li>p</li>
+<li>ul,ol
+*li</li>
+<li>img</li>
+<li>h</li>
+</ul><div class="highlight"><pre><span class="cp">&lt;!doctype html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">pl</span><span class="nt">&gt;</span>
+<span class="nt">&lt;head&gt;</span>
+  <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">utf-8</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;title&gt;</span>Szablon strony HTML5<span class="nt">&lt;/title&gt;</span>
+    body { background: #E2DF9A; }
+  <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+  <span class="nt">&lt;p&gt;</span>ąćęłńóśźż ĄĆĘŁŃÓŚŹŻ<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span>
+</pre></div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<p>jajsj jo</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+<p><b>JEZYKI   PROGRAMOWANIA</b><br><br><b>ZAJECIA 1<br><br>
+Zad 1<br>
+Wyswietl sume, różnice, iloczyn i iloraz dwóch liczb calkowitych.<br></b>
+<br><b>Wersja 1</b><br>
+pokaże  błąd przy dzieleniu, bo zadeklarowano liczby calkowite int a,b</p>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+ <span class="kt">int</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">;</span>
+ <span class="n">a</span><span class="o">=</span><span class="mi">3</span><span class="p">;</span>
+ <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">;</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"%d*%d=%d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="o">*</span><span class="n">b</span><span class="p">);</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"%d/%d=%d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="o">/</span><span class="n">b</span><span class="p">);</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"%d+%d=%d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="o">+</span><span class="n">b</span><span class="p">);</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"%d-%d=%d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="o">-</span><span class="n">b</span><span class="p">);</span>
+ <span class="n">getchar</span><span class="p">();</span>
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
 
-<h3>Designer Templates</h3>
+<p><b>Wersja 2</b><br>
+pokaże wszystkie odpwiedzi jako zmiennoprzecinkowe np. 21.000000, bo zadeklarowano zmiennoprzecinkowe double a,b</p>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+ <span class="kt">double</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">;</span>
+ <span class="n">a</span><span class="o">=</span><span class="mi">3</span><span class="p">;</span>
+ <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">;</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"%lf*%lf=%lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="o">*</span><span class="n">b</span><span class="p">);</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"%lf/%lf=%lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="o">/</span><span class="n">b</span><span class="p">);</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"%lf+%lf=%lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="o">+</span><span class="n">b</span><span class="p">);</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"%lf-%lf=%lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="o">-</span><span class="n">b</span><span class="p">);</span>
+ <span class="n">getchar</span><span class="p">();</span>
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
 
-<h3>Rather Drive Stick?</h3>
+<p><b>Wersja 3</b><br>
+pokaże sumę, różnicę, iloczyn jako liczby całkowite /zmiennoprzecinkowe ale z zerem miejsc po przecinku, <br>a dzielenie z miejscami po przecinku.</p>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+ <span class="kt">double</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">;</span>
+ <span class="n">a</span><span class="o">=</span><span class="mi">3</span><span class="p">;</span>
+ <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">;</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"%.0lf*%.0lf=%.0lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="o">*</span><span class="n">b</span><span class="p">);</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"%lf/%lf=%lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="o">/</span><span class="n">b</span><span class="p">);</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"%.0lf+%.0lf=%.0lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="o">+</span><span class="n">b</span><span class="p">);</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"%.0lf-%.0lf=%.0lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span> <span class="n">a</span><span class="o">-</span><span class="n">b</span><span class="p">);</span>
+ <span class="n">getchar</span><span class="p">();</span>
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
 
-<h3>Authors and Contributors</h3>
+<p><b><br>Zad 2<br>
+Oblicz obwód kola o promieniu r<br><br>
+Wersja 1</b><br>
+z dolaczona #include , żeby liczylo pi /jako M_PI/, czyli podstawi samodzielnie wartosć pi<br>
+Poda wartosc obwodu kola wraz z obliczeniami </p>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="cp">#include &lt;math.h&gt;</span>
+<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+ <span class="kt">double</span> <span class="n">r</span><span class="p">;</span>
+ <span class="kt">int</span> <span class="n">a</span><span class="p">;</span>
+ <span class="n">a</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"podaj promień okręgu %lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">r</span><span class="p">);</span>
+ <span class="n">scanf</span> <span class="p">(</span><span class="s">"%lf"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">r</span><span class="p">);</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"%d*%lf*%lf=%lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">M_PI</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">a</span><span class="o">*</span><span class="n">M_PI</span><span class="o">*</span><span class="n">r</span><span class="p">);</span>
+ <span class="n">getchar</span><span class="p">();</span>
+ <span class="n">getchar</span><span class="p">();</span>
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
 
-<h3>Support or Contact</h3>
+<p><b>Wersja 2</b><br>
+z dolaczeniem #include <br>
+Poda wartosci obwodu i pola kola wraz z obliczeniami</p>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </article>
-      </div>
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="cp">#include &lt;math.h&gt;</span>
+<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+ <span class="kt">double</span> <span class="n">r</span><span class="p">;</span>
+ <span class="kt">int</span> <span class="n">a</span><span class="p">;</span>
+ <span class="n">a</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"podaj promień okręgu r %lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">r</span><span class="p">);</span>
+ <span class="n">scanf</span> <span class="p">(</span><span class="s">"%lf"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">r</span><span class="p">);</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"%d*%lf*%lf=%lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">M_PI</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">a</span><span class="o">*</span><span class="n">M_PI</span><span class="o">*</span><span class="n">r</span><span class="p">);</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"%lf*%lf=%lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">M_PI</span><span class="p">,</span> <span class="n">r</span><span class="o">*</span><span class="n">r</span><span class="p">,</span> <span class="n">M_PI</span><span class="o">*</span><span class="n">r</span><span class="o">*</span><span class="n">r</span><span class="p">);</span>
+ <span class="n">getchar</span><span class="p">();</span>
+ <span class="n">getchar</span><span class="p">();</span>
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+<p><b>Wersja 3</b><br>
+z dolaczeniem #include <br>
+Poda wartosci obwodu i pola kola wraz z obliczeniami i tekstem</p>
+
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="cp">#include &lt;math.h&gt;</span>
+<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+ <span class="kt">double</span> <span class="n">r</span><span class="p">;</span>
+ <span class="kt">int</span> <span class="n">a</span><span class="p">;</span>
+ <span class="n">a</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"podaj promień okręgu r %lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">r</span><span class="p">);</span>
+ <span class="n">scanf</span> <span class="p">(</span><span class="s">"%lf"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">r</span><span class="p">);</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"%d*%lf*%lf=%lf Obwod kola</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">M_PI</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">a</span><span class="o">*</span><span class="n">M_PI</span><span class="o">*</span><span class="n">r</span><span class="p">);</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"%lf*%lf=%lf Pole kola</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">M_PI</span><span class="p">,</span> <span class="n">r</span><span class="o">*</span><span class="n">r</span><span class="p">,</span> <span class="n">M_PI</span><span class="o">*</span><span class="n">r</span><span class="o">*</span><span class="n">r</span><span class="p">);</span>
+ <span class="n">getchar</span><span class="p">();</span>
+ <span class="n">getchar</span><span class="p">();</span>
+
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+<p><b>Wersja 4</b><br>
+z dolaczeniem #include <br>
+Poda wartosci obwodu i pola kola wraz z obliczeniami i tekstem wyswietlonym przy zastosowaniu puts <br>i podwójnego getchar do przechodzenia dalej enterem</p>
+
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="cp">#include &lt;math.h&gt;</span>
+<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+ <span class="kt">double</span> <span class="n">r</span><span class="p">;</span>
+ <span class="kt">int</span> <span class="n">a</span><span class="p">;</span>
+ <span class="n">a</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"podaj promień okręgu r %lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">r</span><span class="p">);</span>
+ <span class="n">scanf</span> <span class="p">(</span><span class="s">"%lf"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">r</span><span class="p">);</span>
+  <span class="n">puts</span><span class="p">(</span><span class="s">"Obwod kola"</span><span class="p">);</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"%d*%lf*%lf=%lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">M_PI</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">a</span><span class="o">*</span><span class="n">M_PI</span><span class="o">*</span><span class="n">r</span><span class="p">);</span>
+ <span class="n">getchar</span><span class="p">();</span>
+ <span class="n">getchar</span><span class="p">();</span>
+ <span class="n">puts</span><span class="p">(</span><span class="s">"Pole kola"</span><span class="p">);</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"%lf*%lf=%lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">M_PI</span><span class="p">,</span> <span class="n">r</span><span class="o">*</span><span class="n">r</span><span class="p">,</span> <span class="n">M_PI</span><span class="o">*</span><span class="n">r</span><span class="o">*</span><span class="n">r</span><span class="p">);</span>
+ <span class="n">getchar</span><span class="p">();</span>
+
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+<p><b>Wersja 5</b><br> 
+z dolaczeniem #include <br>
+Poda wartosci obwodu i pola kola bez widocznych obliczen, tylko wynik i tekst</p>
+
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="cp">#include &lt;math.h&gt;</span>
+<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+ <span class="kt">double</span> <span class="n">r</span><span class="p">;</span>
+ <span class="kt">int</span> <span class="n">a</span><span class="p">;</span>
+ <span class="n">a</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"podaj promień okręgu r %lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">r</span><span class="p">);</span>
+ <span class="n">scanf</span> <span class="p">(</span><span class="s">"%lf"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">r</span><span class="p">);</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"Obwod kola %lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">a</span><span class="o">*</span><span class="n">M_PI</span><span class="o">*</span><span class="n">r</span><span class="p">);</span>
+ <span class="n">getchar</span><span class="p">();</span>
+ <span class="n">getchar</span><span class="p">();</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"Pole kola %lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">M_PI</span><span class="o">*</span><span class="n">r</span><span class="o">*</span><span class="n">r</span><span class="p">);</span>
+ <span class="n">getchar</span><span class="p">();</span>
+
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+<p><b>Wersja 6</b><br>
+z dolaczeniem #include <br>
+Poda wartosci obwodu i pola kola bez widocznych obliczen, <br>tylko wynik i opis wraz z podaniem dla jakiego promienia r</p>
+
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="cp">#include &lt;math.h&gt;</span>
+<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+ <span class="kt">double</span> <span class="n">r</span><span class="p">;</span>
+ <span class="kt">int</span> <span class="n">a</span><span class="p">;</span>
+ <span class="n">a</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"podaj promień okręgu r %lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">r</span><span class="p">);</span>
+ <span class="n">scanf</span> <span class="p">(</span><span class="s">"%lf"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">r</span><span class="p">);</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"Obwod kola o promieniu %lf wynosi %lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">a</span><span class="o">*</span><span class="n">M_PI</span><span class="o">*</span><span class="n">r</span><span class="p">);</span>
+ <span class="n">getchar</span><span class="p">();</span>
+ <span class="n">getchar</span><span class="p">();</span>
+ <span class="n">printf</span> <span class="p">(</span><span class="s">"Pole kola o promieniu %lf wynosi %lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">M_PI</span><span class="o">*</span><span class="n">r</span><span class="o">*</span><span class="n">r</span><span class="p">);</span>
+ <span class="n">getchar</span><span class="p">();</span>
+
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+<p><br><b>Zad 3<br>
+Przelicz  F na C<br><br>
+Wersja 1</b><br>
+Zastosowanie while,<br> 
+Zamieni F na C w zakresie od 0F do 300F z krokiem 20F int czyli tylko wartosci cakowite</p>
+
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+<span class="kt">int</span> <span class="n">fahr</span><span class="p">,</span> <span class="n">celsius</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">lower</span><span class="p">,</span> <span class="n">upper</span><span class="p">,</span> <span class="n">step</span><span class="p">;</span>
+<span class="n">lower</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+<span class="n">upper</span><span class="o">=</span><span class="mi">300</span><span class="p">;</span>
+<span class="n">step</span><span class="o">=</span><span class="mi">20</span><span class="p">;</span>
+<span class="n">fahr</span><span class="o">=</span><span class="n">lower</span><span class="p">;</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">fahr</span><span class="o">&lt;=</span><span class="n">upper</span><span class="p">){</span>
+      <span class="n">celsius</span><span class="o">=</span><span class="mi">5</span><span class="o">*</span><span class="p">(</span><span class="n">fahr</span><span class="o">-</span><span class="mi">32</span><span class="p">)</span><span class="o">/</span><span class="mi">9</span><span class="p">;</span>
+      <span class="n">printf</span><span class="p">(</span><span class="s">"%d</span><span class="se">\t</span><span class="s"> %d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">fahr</span><span class="p">,</span> <span class="n">celsius</span><span class="p">);</span>
+      <span class="n">fahr</span><span class="o">=</span><span class="n">fahr</span><span class="o">+</span><span class="n">step</span><span class="p">;</span>
+                     <span class="p">}</span>
+ <span class="n">getchar</span><span class="p">();</span>
+
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+<p><b>Wersja 2</b><br>
+Zastosowanie while,<br> 
+Zamieni stopnie F na C od 0F do 50F ale wynik z dokladnocia do jednego miejsca po przecinku, <br>czyli używamy zmiennoprzecinkowych - zamieniamy int na double i %d na %lf</p>
+
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+<span class="kt">double</span> <span class="n">fahr</span><span class="p">,</span> <span class="n">celsius</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">lower</span><span class="p">,</span> <span class="n">upper</span><span class="p">,</span> <span class="n">step</span><span class="p">;</span>
+<span class="n">lower</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+<span class="n">upper</span><span class="o">=</span><span class="mi">50</span><span class="p">;</span>
+<span class="n">step</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+<span class="n">fahr</span><span class="o">=</span><span class="n">lower</span><span class="p">;</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">fahr</span><span class="o">&lt;=</span><span class="n">upper</span><span class="p">){</span>
+      <span class="n">celsius</span><span class="o">=</span><span class="mi">5</span><span class="o">*</span><span class="p">(</span><span class="n">fahr</span><span class="o">-</span><span class="mi">32</span><span class="p">)</span><span class="o">/</span><span class="mi">9</span><span class="p">;</span>
+      <span class="n">printf</span><span class="p">(</span><span class="s">"%.1lf</span><span class="se">\t</span><span class="s"> %.1lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">fahr</span><span class="p">,</span> <span class="n">celsius</span><span class="p">);</span>
+      <span class="n">fahr</span><span class="o">=</span><span class="n">fahr</span><span class="o">+</span><span class="n">step</span><span class="p">;</span>
+                     <span class="p">}</span>
+ <span class="n">getchar</span><span class="p">();</span>
+
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+<p><b>Wersja 3</b><br>
+Zastosowanie while,<br> 
+To samo co Wersja 2, ale ladnie wyswietli wyniki przecinkami jeden pod drugim</p>
+
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+<span class="kt">double</span> <span class="n">fahr</span><span class="p">,</span> <span class="n">celsius</span><span class="p">;</span>
+<span class="kt">int</span> <span class="n">lower</span><span class="p">,</span> <span class="n">upper</span><span class="p">,</span> <span class="n">step</span><span class="p">;</span>
+<span class="n">lower</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+<span class="n">upper</span><span class="o">=</span><span class="mi">50</span><span class="p">;</span>
+<span class="n">step</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span>
+<span class="n">fahr</span><span class="o">=</span><span class="n">lower</span><span class="p">;</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">fahr</span><span class="o">&lt;=</span><span class="n">upper</span><span class="p">){</span>
+      <span class="n">celsius</span><span class="o">=</span><span class="mi">5</span><span class="o">*</span><span class="p">(</span><span class="n">fahr</span><span class="o">-</span><span class="mi">32</span><span class="p">)</span><span class="o">/</span><span class="mi">9</span><span class="p">;</span>
+      <span class="n">printf</span><span class="p">(</span><span class="s">"%5.1lf</span><span class="se">\t</span><span class="s"> %7.1lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">fahr</span><span class="p">,</span> <span class="n">celsius</span><span class="p">);</span>
+      <span class="n">fahr</span><span class="o">=</span><span class="n">fahr</span><span class="o">+</span><span class="n">step</span><span class="p">;</span>
+                     <span class="p">}</span>
+ <span class="n">getchar</span><span class="p">();</span>
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+<p><b>Wersja 4</b><br>
+Zastosowanie for , #define LOWER 0 itd<br> 
+Jak w Wersji 1, ale przy #define STEP 0 daje niekonczaca sie petle <br>
+wywietlac bedzie zera w nieskonczonosc i żeby wyjsc to wcisnac ctrl+c<br> 
+Zmiana STEP na np. 20 da normalna petle<br> 
+i zamieni F na C w zakresie od 0F do 300F z krokiem 20F </p>
+
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="cp">#define LOWER 0</span>
+<span class="cp">#define UPPER 300</span>
+<span class="cp">#define STEP 0</span>
+<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+<span class="kt">int</span> <span class="n">fahr</span><span class="p">,</span> <span class="p">;</span>
+<span class="k">for</span><span class="p">(</span><span class="n">fahr</span><span class="o">=</span><span class="n">LOWER</span><span class="p">;</span> <span class="n">fahr</span><span class="o">&lt;=</span><span class="n">UPPER</span><span class="p">;</span> <span class="n">fahr</span><span class="o">=</span><span class="n">fahr</span><span class="o">+</span><span class="n">STEP</span><span class="p">)</span>
+<span class="n">printf</span><span class="p">(</span><span class="s">"%3d %6.1lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">fahr</span><span class="p">,(</span><span class="mf">5.0</span><span class="o">/</span><span class="mf">9.0</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">fahr</span><span class="o">-</span><span class="mf">32.0</span><span class="p">));</span>
+ <span class="n">getchar</span><span class="p">();</span>
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+<p><br><b>Zad 4<br>
+Oblicz n-ty wyraz (Un) ciagu Fibonacciego.</b><br><br>
+Petla do-while <br></p>
+
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+<span class="kt">int</span> <span class="n">u1</span><span class="p">,</span> <span class="n">u2</span><span class="p">,</span> <span class="n">u3</span><span class="p">;</span><span class="cm">/*na kolejne wyrazy ciągu*/</span>
+<span class="kt">int</span> <span class="n">n</span><span class="p">;</span>  <span class="cm">/*nr wyrazu*/</span>
+<span class="kt">int</span> <span class="n">i</span><span class="p">;</span> <span class="cm">/*licznik*/</span>
+<span class="k">do</span>
+  <span class="p">{</span> <span class="n">printf</span> <span class="p">(</span><span class="s">"podaj numer wyrazu (co najmniej 3): "</span><span class="p">);</span>
+   <span class="n">scanf</span> <span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">n</span><span class="p">);</span>
+  <span class="p">}</span>
+  <span class="k">while</span> <span class="p">(</span><span class="n">n</span><span class="o">&lt;</span><span class="mi">3</span><span class="p">);</span>
+  <span class="n">u2</span><span class="o">=</span><span class="n">u1</span><span class="o">=</span><span class="mi">1</span><span class="p">;</span> <span class="cm">/*dwa pierwsze wyrazy*/</span>
+  <span class="n">i</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span>
+  <span class="k">while</span> <span class="p">(</span><span class="n">i</span><span class="o">++</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">)</span> <span class="cm">/*dziala tylko dla n&gt;2 i++ najpierw sdprawdza i z n potem zwieksz o jeden*/</span>
+   <span class="p">{</span><span class="n">u3</span><span class="o">=</span><span class="n">u1</span><span class="o">+</span><span class="n">u2</span><span class="p">;</span>
+    <span class="n">u1</span><span class="o">=</span><span class="n">u2</span><span class="p">;</span>
+    <span class="n">u2</span><span class="o">=</span><span class="n">u3</span><span class="p">;</span>
+   <span class="p">}</span>
+   <span class="cm">/*inna możliwość*/</span>
+   <span class="cm">/*for (i=3; i&lt;=2; i++, u1=u2, u2=u3) u3=u1+u2; */</span>
+   <span class="n">printf</span> <span class="p">(</span><span class="s">"Wyraz o numerze %d ma wartość %d"</span> <span class="p">,</span> <span class="n">n</span><span class="p">,</span> <span class="n">u3</span><span class="p">);</span>
+ <span class="n">getchar</span><span class="p">();</span> <span class="n">getchar</span><span class="p">();</span>
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+<p><br><b>Zad 5<br>
+Zbuduj trojkat  - choinke zudowana ze znakow * o zadeklarowanej liczbie wierszy.</b><br> 
+Petla for. </p>
+
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="cp">#define znak '*' </span><span class="cm">/*znak wypelnienia*/</span><span class="cp"></span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+<span class="kt">int</span> <span class="n">lbwier</span><span class="p">;</span><span class="cm">/*calkowita liczba wierszy*/</span>
+<span class="kt">int</span> <span class="n">lw</span><span class="p">;</span>  <span class="cm">/*licznik wierszy*/</span>
+<span class="kt">int</span> <span class="n">lodst</span><span class="p">;</span> <span class="cm">/*liczba odstepow poprzedzajacych gwiazdke*/</span>
+<span class="kt">int</span> <span class="n">j</span><span class="p">;</span>
+
+  <span class="n">printf</span> <span class="p">(</span><span class="s">"ile wierszy? "</span><span class="p">);</span>
+   <span class="n">scanf</span> <span class="p">(</span><span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">lbwier</span><span class="p">);</span>
+
+   <span class="k">for</span> <span class="p">(</span><span class="n">lw</span><span class="o">=</span><span class="mi">0</span> <span class="p">;</span> <span class="n">lw</span><span class="o">&lt;</span><span class="n">lbwier</span> <span class="p">;</span> <span class="n">lw</span><span class="o">++</span><span class="p">)</span>
+   <span class="p">{</span> <span class="n">lodst</span> <span class="o">=</span> <span class="n">lbwier</span><span class="o">-</span><span class="n">lw</span><span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+     <span class="k">for</span> <span class="p">(</span><span class="n">j</span><span class="o">=</span><span class="mi">0</span> <span class="p">;</span> <span class="n">j</span><span class="o">&lt;</span><span class="n">lodst</span> <span class="p">;</span> <span class="n">j</span><span class="o">++</span><span class="p">)</span> <span class="n">putchar</span> <span class="p">(</span><span class="sc">' '</span><span class="p">);</span> <span class="cm">/* putchar-wstaw (' ')-puste miejsce*/</span>
+     <span class="k">for</span> <span class="p">(</span><span class="n">j</span><span class="o">=</span><span class="mi">0</span> <span class="p">;</span> <span class="n">j</span><span class="o">&lt;</span><span class="mi">2</span><span class="o">*</span><span class="n">lw</span><span class="o">+</span><span class="mi">1</span> <span class="p">;</span> <span class="n">j</span><span class="o">++</span><span class="p">)</span> <span class="n">putchar</span> <span class="p">(</span><span class="n">znak</span><span class="p">);</span> <span class="cm">/* (znak)-wstaw * */</span>
+     <span class="n">putchar</span><span class="p">(</span><span class="sc">'\n'</span><span class="p">);</span>
+   <span class="p">}</span>
+ <span class="n">getchar</span><span class="p">();</span> <span class="n">getchar</span><span class="p">();</span>
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+<p><br><b>Zad 6 </b><br><i>/jest to zadanie nr 1 z kartki nr 1/</i><br><b>Wyswietl liczby od 0 do 23</b><br><br>
+Wersja z petla for.</p>
+
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+<span class="kt">int</span> <span class="n">i</span><span class="p">;</span>
+<span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+ <span class="k">for</span><span class="p">(</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="mi">24</span><span class="p">;</span> <span class="n">i</span><span class="o">++</span><span class="p">)</span>
+ <span class="p">{</span>
+    <span class="n">printf</span> <span class="p">(</span><span class="s">"%d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">i</span><span class="p">);</span>
+ <span class="p">}</span>
+ <span class="n">getchar</span><span class="p">();</span> <span class="n">getchar</span><span class="p">();</span>
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>  
+</pre></div>
+
+<p>Wersja z petla while.</p>
+
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+<span class="kt">int</span> <span class="n">i</span><span class="p">;</span>
+<span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+ <span class="k">while</span><span class="p">(</span> <span class="n">i</span><span class="o">&lt;</span><span class="mi">24</span><span class="p">)</span>
+ <span class="p">{</span>
+      <span class="n">printf</span> <span class="p">(</span><span class="s">"%d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">i</span><span class="p">);</span>
+      <span class="n">i</span><span class="o">++</span><span class="p">;</span>
+ <span class="p">}</span>
+ <span class="n">getchar</span><span class="p">();</span> <span class="n">getchar</span><span class="p">();</span>
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+
+<p>Wersja z petla do-while.</p>
+
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+<span class="kt">int</span> <span class="n">i</span><span class="p">,;</span>
+<span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
+<span class="k">do</span>
+  <span class="p">{</span> <span class="n">printf</span> <span class="p">(</span><span class="s">"%d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">i</span><span class="p">);</span>
+  <span class="n">i</span><span class="o">++</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">while</span> <span class="p">(</span><span class="n">i</span><span class="o">&lt;</span><span class="mi">24</span><span class="p">);</span>
+ <span class="n">getchar</span><span class="p">();</span> <span class="n">getchar</span><span class="p">();</span>
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span> 
+</pre></div>
+
+<p><br><b>Zad 7</b><br><i>/jest to zadanie nr 2 z kartki nr 1/</i><br><b>Wypisz liczby od - 3.5 do 7.5 z krokiem co 0.5 za pomoca petli do-while.</b><br>
+Petla do-while. </p>
+
+<div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+<span class="kt">double</span> <span class="n">i</span><span class="p">,</span><span class="n">n</span><span class="p">;</span>
+<span class="n">i</span><span class="o">=-</span><span class="mf">3.5</span><span class="p">;</span>
+<span class="n">n</span><span class="o">=</span><span class="mf">7.5</span><span class="p">;</span>
+<span class="k">do</span>
+  <span class="p">{</span> <span class="n">printf</span> <span class="p">(</span><span class="s">"%.1lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">i</span><span class="p">);</span>
+  <span class="n">i</span><span class="o">=</span><span class="n">i</span><span class="o">+</span><span class="mf">0.5</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">while</span> <span class="p">(</span><span class="n">i</span><span class="o">&lt;=</span><span class="n">n</span><span class="p">);</span>
+ <span class="n">getchar</span><span class="p">();</span> <span class="n">getchar</span><span class="p">();</span>
+ <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span> 
+</pre></div>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/kamilkab82">kamilkab82</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
     </div>
-    <footer>
-      <div class="owner">
-      <p><a href="https://github.com/kamilkab82" class="avatar"><img src="https://secure.gravatar.com/avatar/5b845b4c6075a6768ccf8e1531e00cd6?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="48" height="48"/></a> <a href="https://github.com/kamilkab82">kamilkab82</a> maintains <a href="https://github.com/kamilkab82/ti">Ti</a></p>
-
-
-      </div>
-      <div class="creds">
-        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="http://twitter.com/jonrohan/">Jon Rohan</a></small>
-      </div>
-    </footer>
-  </div>
-  <div class="current-section">
-    <a href="#top">Scroll to top</a>
-    <a href="https://github.com/kamilkab82/ti/tarball/master" class="tar">tar</a><a href="https://github.com/kamilkab82/ti/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
-    <p class="name"></p>
-  </div>
-
-  
-</body>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
 </html>
