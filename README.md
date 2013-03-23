@@ -474,3 +474,21 @@ return 0;
 
 --------
 
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+       int i , suma=0, j=0;
+       for( i=1; i<=10000; i++){
+            suma=0;
+            for( j=1; j<i; j++)
+            if (i%j==0)
+            suma=suma+j;
+            if(suma==i)
+            printf("%d,", suma);
+            
+           }
+getchar();
+getchar();
+return 0;
+}
