@@ -440,3 +440,37 @@ do
 ```
 bzzzzzzzzzzzz
 
+```c
+
+Zad . 1. Warunkowe, trójmian kwadratowy
+#include <stdio.h>
+#include <math.h>
+
+int main(){
+       double x1,x2,a,b,c,delta;
+       printf("podaj wspolczynniki trojmianu kwadratowego\n");
+       scanf("%lf %lf %lf", &a, &b, &c);  
+       delta=b*b-(4*a*c);
+                       if(delta<0) {
+                       printf("To nie jest delta");
+                                        }
+                                        else {
+                                         if (delta==0){
+                                            x1=x2=-b/(2*a);
+                                             }
+                                                           else {
+      
+                                                           if(delta>0){
+                                                           x1=(-b-sqrt(delta))/(2*a);
+                                                            x2=(-b+sqrt(delta))/(2*a);
+                                                            printf("miejsca zerowe to: x1=%lf, x2=%lf", x1, x2);
+                                                             }
+                                                               }
+       }
+getchar();
+getchar();
+return 0;
+}
+
+--------
+
