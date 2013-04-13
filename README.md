@@ -471,8 +471,8 @@ getchar();
 getchar();
 return 0;
 }
-
---------
+```
+```c
 
 #include <stdio.h>
 #include <math.h>
@@ -492,7 +492,9 @@ getchar();
 getchar();
 return 0;
 }
+```
 .......
+```c
 #include <stdio.h>
 int main(){
        int a, b,c,d=1;
@@ -515,12 +517,13 @@ getchar();
 getchar();
 return 0;
 }
+```
 
-```html
+
 Treść zadania 1
 
 Napisz funkcję obliczającą pole kuli o podanym promieniu.
-
+```c
 #include <stdio.h>
 #include <math.h>
 
@@ -542,11 +545,11 @@ double pole(double r) {
     p=4*M_PI*r*r;                                                          
     return p;    
 }
-
+```
 Treść zadania 2
 
 Napisz funkcję warBezwzgledna zwracajaca wartość bezwzględną z liczby całkowitej.
-
+```c
 #include <stdio.h>
 
 int wartBezwzgledna(int x);
@@ -567,11 +570,11 @@ int wartBezwzgledna(int x) {
     x=-x;
     return x;    
 }
-
+```
 Treść zadania 3
 
 Napisz funkcję obliczającą a do potęgi n dla n należącego do N za pomocą pętli.
-
+```c
 #include <stdio.h>
 int main() {
     double a,x=1;
@@ -588,9 +591,9 @@ int main() {
     getchar();
     return 0;
         }
-
+```
 lub jako funkcja
-
+```c
 #include <stdio.h>
 double potegaAn(double a, int n);
 
@@ -615,11 +618,11 @@ double potegaAn(double a, int n) {
 }
     return x;
 }
-
+```
 Treść zadania 4 jest zbyt skomplikowana
 
 w skrócie - napisać funkcję, która liczy pierwiastek z liczby oraz porównuje go z pierwiastkiem z tej liczby z funkcji wbudowanej
-
+```c
 #include <stdio.h>
 #include <math.h>
 
@@ -646,11 +649,11 @@ double pierwA(double a) {
     x=(x+(a/x))/2.0;
     return x;
     }
-
+```
 Treść zadania 5 (jest w formie algorytmu)
 
 Szybkie boliczanie potęgi n-tej liczby a
-
+```c
 #include <stdio.h>
 int potegaAn(int a, int n);
 
@@ -678,11 +681,11 @@ int potegaAn(int a, int n) {
 
     return p;
 }
-
+```
 Treść zadania 6
 
 Rozbuduj funkcję z poprzedniego zadania tak, aby funkcja działała także dla ujemnych potęg (n całkowite) i dla a będących typu double.
-
+```c
 #include <stdio.h>
 double potegaAn(double a, int n);
 
@@ -718,8 +721,8 @@ double potegaAn(double a, int n) {
                      else
                      return (1.0/p);
 }
-
-
+```
+Notataka Pana W. Bzyla
 
 ```c
 
