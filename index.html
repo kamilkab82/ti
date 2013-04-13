@@ -1,33 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Ti by kamilkab82</title>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Ti : notatki do przedmiotu technologie internetowe" />
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Ti</title>
   </head>
+
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Ti</h1>
-        <p>notatki do przedmiotu technologie internetowe</p>
 
-        <p class="view"><a href="https://github.com/kamilkab82/ti">View the Project on GitHub <small>kamilkab82/ti</small></a></p>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/kamilkab82/ti">View on GitHub</a>
 
+          <h1 id="project_title">Ti</h1>
+          <h2 id="project_tagline">notatki do przedmiotu technologie internetowe</h2>
 
-        <ul>
-          <li><a href="https://github.com/kamilkab82/ti/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/kamilkab82/ti/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/kamilkab82/ti">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/kamilkab82/ti/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/kamilkab82/ti/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
         <h1>Notatki do technologii internetowych</h1>
 
 <p>Znaczniki:</p>
@@ -61,7 +64,7 @@ Wyswietl sume, różnice, iloczyn i iloraz dwóch liczb calkowitych.<br></b>
 pokaże  błąd przy dzieleniu, bo zadeklarowano liczby calkowite int a,b</p>
 
 <div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
-<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
  <span class="kt">int</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">;</span>
  <span class="n">a</span><span class="o">=</span><span class="mi">3</span><span class="p">;</span>
  <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">;</span>
@@ -78,7 +81,7 @@ pokaże  błąd przy dzieleniu, bo zadeklarowano liczby calkowite int a,b</p>
 pokaże wszystkie odpwiedzi jako zmiennoprzecinkowe np. 21.000000, bo zadeklarowano zmiennoprzecinkowe double a,b</p>
 
 <div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
-<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
  <span class="kt">double</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">;</span>
  <span class="n">a</span><span class="o">=</span><span class="mi">3</span><span class="p">;</span>
  <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">;</span>
@@ -95,7 +98,7 @@ pokaże wszystkie odpwiedzi jako zmiennoprzecinkowe np. 21.000000, bo zadeklarow
 pokaże sumę, różnicę, iloczyn jako liczby całkowite /zmiennoprzecinkowe ale z zerem miejsc po przecinku, <br>a dzielenie z miejscami po przecinku.</p>
 
 <div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
-<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
  <span class="kt">double</span> <span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">;</span>
  <span class="n">a</span><span class="o">=</span><span class="mi">3</span><span class="p">;</span>
  <span class="n">b</span><span class="o">=</span><span class="mi">7</span><span class="p">;</span>
@@ -116,7 +119,7 @@ Poda wartosc obwodu kola wraz z obliczeniami </p>
 
 <div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
 <span class="cp">#include &lt;math.h&gt;</span>
-<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
  <span class="kt">double</span> <span class="n">r</span><span class="p">;</span>
  <span class="kt">int</span> <span class="n">a</span><span class="p">;</span>
  <span class="n">a</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span>
@@ -135,7 +138,7 @@ Poda wartosci obwodu i pola kola wraz z obliczeniami</p>
 
 <div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
 <span class="cp">#include &lt;math.h&gt;</span>
-<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
  <span class="kt">double</span> <span class="n">r</span><span class="p">;</span>
  <span class="kt">int</span> <span class="n">a</span><span class="p">;</span>
  <span class="n">a</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span>
@@ -155,7 +158,7 @@ Poda wartosci obwodu i pola kola wraz z obliczeniami i tekstem</p>
 
 <div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
 <span class="cp">#include &lt;math.h&gt;</span>
-<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
  <span class="kt">double</span> <span class="n">r</span><span class="p">;</span>
  <span class="kt">int</span> <span class="n">a</span><span class="p">;</span>
  <span class="n">a</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span>
@@ -176,7 +179,7 @@ Poda wartosci obwodu i pola kola wraz z obliczeniami i tekstem wyswietlonym przy
 
 <div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
 <span class="cp">#include &lt;math.h&gt;</span>
-<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
  <span class="kt">double</span> <span class="n">r</span><span class="p">;</span>
  <span class="kt">int</span> <span class="n">a</span><span class="p">;</span>
  <span class="n">a</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span>
@@ -200,7 +203,7 @@ Poda wartosci obwodu i pola kola bez widocznych obliczen, tylko wynik i tekst</p
 
 <div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
 <span class="cp">#include &lt;math.h&gt;</span>
-<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
  <span class="kt">double</span> <span class="n">r</span><span class="p">;</span>
  <span class="kt">int</span> <span class="n">a</span><span class="p">;</span>
  <span class="n">a</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span>
@@ -222,7 +225,7 @@ Poda wartosci obwodu i pola kola bez widocznych obliczen, <br>tylko wynik i opis
 
 <div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
 <span class="cp">#include &lt;math.h&gt;</span>
-<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
  <span class="kt">double</span> <span class="n">r</span><span class="p">;</span>
  <span class="kt">int</span> <span class="n">a</span><span class="p">;</span>
  <span class="n">a</span><span class="o">=</span><span class="mi">2</span><span class="p">;</span>
@@ -245,7 +248,7 @@ Zastosowanie while,<br>
 Zamieni F na C w zakresie od 0F do 300F z krokiem 20F int czyli tylko wartosci cakowite</p>
 
 <div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
-<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
 <span class="kt">int</span> <span class="n">fahr</span><span class="p">,</span> <span class="n">celsius</span><span class="p">;</span>
 <span class="kt">int</span> <span class="n">lower</span><span class="p">,</span> <span class="n">upper</span><span class="p">,</span> <span class="n">step</span><span class="p">;</span>
 <span class="n">lower</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
@@ -268,7 +271,7 @@ Zastosowanie while,<br>
 Zamieni stopnie F na C od 0F do 50F ale wynik z dokladnocia do jednego miejsca po przecinku, <br>czyli używamy zmiennoprzecinkowych - zamieniamy int na double i %d na %lf</p>
 
 <div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
-<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
 <span class="kt">double</span> <span class="n">fahr</span><span class="p">,</span> <span class="n">celsius</span><span class="p">;</span>
 <span class="kt">int</span> <span class="n">lower</span><span class="p">,</span> <span class="n">upper</span><span class="p">,</span> <span class="n">step</span><span class="p">;</span>
 <span class="n">lower</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
@@ -291,7 +294,7 @@ Zastosowanie while,<br>
 To samo co Wersja 2, ale ladnie wyswietli wyniki przecinkami jeden pod drugim</p>
 
 <div class="highlight"><pre><span class="cp">#include &lt;stdio.h&gt;</span>
-<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
 <span class="kt">double</span> <span class="n">fahr</span><span class="p">,</span> <span class="n">celsius</span><span class="p">;</span>
 <span class="kt">int</span> <span class="n">lower</span><span class="p">,</span> <span class="n">upper</span><span class="p">,</span> <span class="n">step</span><span class="p">;</span>
 <span class="n">lower</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
@@ -319,7 +322,7 @@ i zamieni F na C w zakresie od 0F do 300F z krokiem 20F </p>
 <span class="cp">#define LOWER 0</span>
 <span class="cp">#define UPPER 300</span>
 <span class="cp">#define STEP 0</span>
-<span class="kt">int</span> <span class="n">main</span><span class="p">(){</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">(){</span>
 <span class="kt">int</span> <span class="n">fahr</span><span class="p">,</span> <span class="p">;</span>
 <span class="k">for</span><span class="p">(</span><span class="n">fahr</span><span class="o">=</span><span class="n">LOWER</span><span class="p">;</span> <span class="n">fahr</span><span class="o">&lt;=</span><span class="n">UPPER</span><span class="p">;</span> <span class="n">fahr</span><span class="o">=</span><span class="n">fahr</span><span class="o">+</span><span class="n">STEP</span><span class="p">)</span>
 <span class="n">printf</span><span class="p">(</span><span class="s">"%3d %6.1lf</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">fahr</span><span class="p">,(</span><span class="mf">5.0</span><span class="o">/</span><span class="mf">9.0</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">fahr</span><span class="o">-</span><span class="mf">32.0</span><span class="p">));</span>
@@ -455,12 +458,17 @@ Petla do-while. </p>
 <span class="p">}</span> 
 </pre></div>
       </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/kamilkab82">kamilkab82</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Ti maintained by <a href="https://github.com/kamilkab82">kamilkab82</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+
     
+
   </body>
 </html>
