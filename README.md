@@ -1,15 +1,6 @@
 #Notatki do technologii internetowych
 
-Znaczniki:
-
-* p
-* ul,ol
-  *li
-* img
-* h
-
-
-```html
+```c
 <!doctype html>
 <html lang=pl>
 <head>
