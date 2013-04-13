@@ -14,7 +14,7 @@
 </body>
 </html>
 ```
-jajsj jo
+
 
 <b>JEZYKI   PROGRAMOWANIA</b><br><br>
 <b>ZAJECIA 1<br><br>
@@ -71,7 +71,7 @@ int main(){
  return 0;
 }
 ```
-<b><br>Zad 2<br>
+
 Oblicz obwód kola o promieniu r<br>
 <br>
 Wersja 1</b><br>
